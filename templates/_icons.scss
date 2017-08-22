@@ -55,7 +55,7 @@ $font-icons: ({% _.each(glyphs, function(glyph) { %}
 /// @param {String} $size [inherit]
 /// @param {String} $color [inherit]
 /// @param {Bool} $block [false] - If `display: block` should be applied.
-/// @example scss
+/// @example SCSS
 /// .class {
 ///   @include icon('close');
 /// }
