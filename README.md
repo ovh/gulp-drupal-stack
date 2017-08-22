@@ -9,10 +9,10 @@ This theme core is to be included in your main project and sets up many Gulp tas
 
 ## Features
 
-- SCSS => CSS compiling with Libsass, PostCSS, linting, and SourceMaps
+- SCSS => CSS compiling with LibSass, PostCSS, linting, and SourceMaps
 - JS compiling via Babel, linting and aggregation
 - WebPack module bundling
-- SVG => Font Icons compiling with support for adding mixins and classes to Scss along with a demo page
+- SVG => Font Icons compiling with support for adding mixins and classes to SCSS along with a demo page
 - Drupal file watching to trigger Drush cache clears
 
 All is easily configurable by changing values in your `gulpfile.yml` file in your project. These values are merged into the `gulpfile.default.yml` file - look there for the available options and defaults.
