@@ -1,0 +1,99 @@
+---
+css:
+  enabled: false
+  src:
+    - scss/main.scss
+  dest: dist/
+  extraWatches:
+    - scss/**/*.scss
+  flattenDestOutput: true
+  lint:
+    enabled: true
+    failOnError: true
+    extraSrc:
+      - scss/**/*.scss
+  sourceComments: false
+  sourceMap:
+    enabled: false
+    sourceMapEmbed: false
+  outputStyle: expanded
+  autoPrefixerBrowsers:
+    - last 3 versions
+    - IE >= 10
+  includePaths:
+    - "./node_modules"
+  sassdoc:
+    enabled: false
+    dest: dist/sassdoc
+    verbose: false
+    basePath: ''
+    exclude: []
+    theme: default
+    sort:
+      - file
+      - group
+      - line>
+js:
+  enabled: false
+  src:
+    - js/**/*.js
+  dest: dist/
+  destName: main.min.js  # only if concat is true
+  sourceMap:
+    enabled: false
+    sourceMapEmbed: false
+  concat: false
+  uglify: false
+  babel: true
+  bundleBower: false
+  bundleBowerExclusions: []
+  bowerBasePath: "./"
+  eslint:
+    enabled: true
+    src:
+      - js/**/*.js
+webpack:
+  enabled: false
+  config: ./webpack.config.js
+icons:
+  enabled: false
+  src: images/icons/*.svg
+  dest: fonts/
+  fontPathPrefix: '../fonts/'
+  iconName: 'icons'
+  classNamePrefix: icon
+  autohint: false
+  normalize: true
+  useTimestamp: false
+  templates:
+    enabled: true
+    css:
+      src: node_modules/gulp-drupal-theme-core/templates/_icons.scss
+      dest: scss/base/
+    # demo:
+    #   src: templates/component/_icons.twig.tpl
+    #   dest: templates/component/
+  formats:
+    - ttf
+    - eot
+    - woff
+    - svg
+browserSync:
+  enabled: false
+  port: 3050
+  watchFiles: []
+  baseDir: "./"
+  startPath: pattern-lab/public/
+  openBrowserAtStart: false
+  browser:
+    - Google Chrome
+  tunnel: false
+  reloadDelay: 50
+  reloadDebounce: 750
+drupal:
+  enabled: false
+  watch:
+    - template.php
+    - templates/**
+  command: drush cc all
+  dir: "./"
