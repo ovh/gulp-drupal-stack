@@ -1,6 +1,6 @@
 {
   "name": "gulp-drupal-theme-core",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "OVH Gulp tasks Drupal Theme Core",
   "main": "index.js",
   "authors": [
