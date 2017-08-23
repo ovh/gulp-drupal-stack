@@ -14,5 +14,12 @@ module.exports = {
     'no-console': [0],
     'global-require': [0],
     'import/no-dynamic-require': [0],
+    'comma-dangle': ['error', {
+        arrays: 'never',
+        objects: 'never',
+        imports: 'never',
+        exports: 'never',
+        functions: 'never'
+    }]
   },
 };
