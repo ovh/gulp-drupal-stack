@@ -1,0 +1,37 @@
+p + ul,
+p + ol {
+    margin-top: -20px !important;
+    margin-left: 15px;
+}
+.admonition > *:last-child {
+    margin-bottom: 0 !important;
+}
+
+.admonition.quote,
+.admonition.success {
+    padding: 12px;
+    margin-bottom: 24px;
+    line-height: 24px;
+}
+.admonition.quote {
+    background: hsla(0,0%,93%,.5);
+}
+.admonition.success {
+    background: rgba(0,200,83,.1);
+}
+
+.admonition.note {
+    border-left: .2rem solid #00b0ff !important;
+}
+.admonition.success {
+    border-left: .2rem solid #00c853 !important;
+}
+.admonition.danger {
+    border-left: .2rem solid #ff1744 !important;
+}
+.admonition.warning {
+    border-left: .2rem solid #ff9100 !important;
+}
+.admonition.cite {
+    border-left: .2rem solid #9e9e9e;
+}

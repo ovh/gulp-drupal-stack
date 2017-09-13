@@ -1,6 +1,4 @@
-# Icons
-
-Uses [`gulp-iconfont`](https://github.com/nfroidure/gulp-iconfont). Grabs a folder of SVG icons and turns them into font icons, creates a Sass mixin and class for each based on filename, adds all to a demo page.
+Uses [gulp-iconfont](https://github.com/nfroidure/gulp-iconfont). Grabs a folder of SVG icons and turns them into font icons, creates a Sass mixin and class for each based on filename, adds all to a demo page.
 
 ## Usage
 

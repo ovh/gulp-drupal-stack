@@ -1,5 +1,3 @@
-# JS
-
 Compiles JS files using Babel. You can optionaly concat, uglify, and add sourcemaps.
 
 ## Commands

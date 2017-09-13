@@ -1,6 +1,4 @@
-# SCSS
-
-Compiles SCSS to CSS using [`gulp-sass`](https://github.com/dlmanning/gulp-sass), which in turn uses `node-sass`, which in turn uses `libsass`.
+Compiles SCSS to CSS using [gulp-sass](https://github.com/dlmanning/gulp-sass), which in turn uses `node-sass`, which in turn uses `libsass`.
 
 ## Usage
 
@@ -17,7 +15,7 @@ You can create individual CSS files bundle, using the config:
 
 - `gulp css` - Compile SCSS to CSS
 - `gulp watch:css` - Watch and compile
-- `gulp validate:css` - Test SCSS with [`gulp-sass-lint`](https://github.com/sasstools/gulp-sass-lint), which uses [`sass-lint`](https://github.com/sasstools/sass-lint) (Pure node.js - no Ruby)
+- `gulp validate:css` - Test SCSS with [gulp-sass-lint](https://github.com/sasstools/gulp-sass-lint), which uses [sass-lint](https://github.com/sasstools/sass-lint) (Pure node.js - no Ruby)
 
 ## Config
 

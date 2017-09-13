@@ -1,0 +1,20 @@
+site_name: Gulp Drupal Theme - Core
+docs_dir: docs
+
+pages:
+  - Home: index.md
+  - Features:
+    - CSS: features/css.md
+    - JS: features/js.md
+    - Icons: features/icons.md
+    - Drupal-Drush: features/drupal-drush.md
+    - BrowserSync: features/browser-sync.md
+  - Troubleshooting: troubleshooting.md
+
+markdown_extensions:
+  - toc:
+      permalink: True
+  - admonition:
+
+extra_css:
+  - extra.css
