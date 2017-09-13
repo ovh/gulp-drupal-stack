@@ -3,7 +3,11 @@ Gulp Drupal Theme - Core
 
 ![gulp-drupal-theme-core-banner](banner.png)
 
-[![Maintenance](https://img.shields.io/maintenance/yes/2017.svg)]() [![Gitter](https://img.shields.io/gitter/room/nwjs/nw.js.svg)](https://gitter.im/ovh/ux) [![travis](https://travis-ci.org/ovh-ux/gulp-drupal-theme-core.svg?branch=master)](https://travis-ci.org/ovh-ux/gulp-drupal-theme-core)
+[![Maintenance](https://img.shields.io/maintenance/yes/2017.svg)]() 
+[![Gitter](https://img.shields.io/gitter/room/nwjs/nw.js.svg)](https://gitter.im/ovh/ux) 
+[![travis](https://travis-ci.org/ovh-ux/gulp-drupal-theme-core.svg?branch=master)](https://travis-ci.org/ovh-ux/gulp-drupal-theme-core)
+[![Documentation Status](https://readthedocs.org/projects/gulp-drupal-theme-core/badge/?version=latest)](http://gulp-drupal-theme-core.readthedocs.io/en/latest/?badge=latest)
+
 
 This theme core is to be included in your main project and sets up many Gulp tasks that can work in many flexible ways by passing in different `config` objects, which can be based off of `gulpfile.default.yml` (and is merged with).
 

@@ -42,7 +42,7 @@ $ npm install --save-dev babel-preset-es2015
 And create a `.babelrc` file:
 ```json
 {
-"presets": ["es2015"]
+    "presets": ["es2015"]
 }
 ```
 
