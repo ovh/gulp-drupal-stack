@@ -18,18 +18,17 @@ All the documentation can be found inside the [Features](features/css.md) sectio
 
 In order to use Babel, you need to create a `.babelrc` into your project, with the presets that you want installed.
 
-**Example:**
-
-Run: 
-```bash
-$ npm install --save-dev babel-preset-es2015
-```
-And create a `.babelrc` file:
-```json
-{
-  "presets": ["es2015"]
-}
-```
+!!! note "Example"
+    Run: 
+    ```bash
+    $ npm install --save-dev babel-preset-es2015
+    ```
+    And create a `.babelrc` file:
+    ```json
+    {
+    "presets": ["es2015"]
+    }
+    ```
 
 ### ESLint
 

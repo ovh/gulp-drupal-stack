@@ -21,10 +21,10 @@ All is easily configurable by changing values in your `gulpfile.yml` file in you
 
 ## Documentation
 
-Full documentation is available [here](https://drucker.readthedocs.io/en/latest).
+Full documentation is available [here](https://gulp-drupal-theme-core.readthedocs.io/en/latest/).
 
 
-### TODO
+#### TODO
 
 - BrowserSync live reload and style injection (should be OK, not tested)
 - Images => Images optimization (to validate)
