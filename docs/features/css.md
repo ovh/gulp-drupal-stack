@@ -24,3 +24,5 @@ You can create individual CSS files bundle, using the config:
 - `config.css.lint` - Boolean for if Linting should occur
 - `config.css.sourceComments` - Boolean - Enable comments written in CSS that shows SCSS source. **Don't turn on permanently**, it's useful if SourceMaps aren't working.
 - `config.css.autoPrefixerBrowsers` - Array of [Browsers to Support](https://github.com/ai/browserslist#queries) for Autoprefixer (used by PostCSS).
+
+---

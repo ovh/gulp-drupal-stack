@@ -38,9 +38,6 @@ $ vi gulpfile.yml
 # <set the config that you want, and save it>
 ```
 
-!!! note ""
-    See the [Config](config.yml) section for the documentation about the configuration file.
-
 
 ## Usage
 
@@ -55,3 +52,5 @@ Original project from [p2-theme-core](https://github.com/phase2/p2-theme-core).
 ## License
 
 MIT (original license)
+
+---

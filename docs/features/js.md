@@ -1,7 +1,7 @@
 Compiles JS files using Babel. You can optionaly concat, uglify, and add sourcemaps.
 
 !!! note ""
-    It's recommanded to use [Webpack](features/webpack.md) instead.
+    We recommand to use [Webpack](features/webpack.md) instead.
 
 ## Commands
 
@@ -10,3 +10,5 @@ Compiles JS files using Babel. You can optionaly concat, uglify, and add sourcem
 - `gulp validate:js` - Test JS with ESLINT
 - `gulp js:bundleBower` - (optional) compile, uglify, concat bower dependencies (result files will be `bower--*deps*.js`)
 - `gulp watch:bower` - (optional) Watch and compile bower deps
+
+---

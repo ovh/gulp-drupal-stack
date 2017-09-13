@@ -27,3 +27,5 @@ Or this HTML class:
 - `config.icons.iconName` - Name of the icon (will be the name of the font)
 - `config.icons.classNamePrefix` - Icon class name prefix (default: "icon")
 - `config.icons.templates.css.dest` - The generated SCSS file
+
+---

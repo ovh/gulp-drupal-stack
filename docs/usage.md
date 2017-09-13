@@ -8,16 +8,18 @@
 
 ## Specifics Commands
 
-You can launch specifics tasks, for example "lint CSS files". In this example, you can use `gulp validate:css`.
+You can launch specifics tasks, for example "lint CSS files": `gulp validate:css`.
 
-All the documentation can be found inside the [Features](features) section.
+All the documentation can be found inside the [Features](features/css.md) section.
 
+---
 
 ### Babel
 
 In order to use Babel, you need to create a `.babelrc` into your project, with the presets that you want installed.
 
 **Example:**
+
 Run: 
 ```bash
 $ npm install --save-dev babel-preset-es2015
@@ -29,11 +31,12 @@ And create a `.babelrc` file:
 }
 ```
 
-### ESLINT
+### ESLint
 
 You need to create a `.eslintrc.js` file, and specify whitch rules that you want (`eslint-config-ovh` is recommanded).
 
 **Example:**
+
 Run: 
 ```bash
 $ npm install --save-dev babel-eslint
@@ -56,11 +59,12 @@ module.exports = {
 };
 ```
 
-### STYLELINT
+### StyleLint
 
 You need to create a `.stylelintrc.js` file, and specify whitch rules that you want (`stylelint-config-ovh` is recommanded).
 
 **Example:**
+
 Run: 
 ```bash
 $ npm install --save-dev stylelint-scss
@@ -74,3 +78,5 @@ module.exports = {
     "extends": "stylelint-config-ovh/configs/scss"
 };
 ```
+
+---
