@@ -1,3 +1,18 @@
+## Config
+
+All is easily configurable by changing values in your `gulpfile.yml` file in your project. These values are merged into the `gulpfile.default.yml` file.
+
+For example, you can enable SCSS and JS like this:
+```yml
+css:
+  enabled: true
+js:
+  enabled: true
+```
+
+You can find all the available options and defaults settings inside the `gulpfile.default.yml` file.
+
+
 ## Commands
 
 - `gulp` - Run all compile tasks, and watch for changes
@@ -18,17 +33,18 @@ All the documentation can be found inside the [Features](features/css.md) sectio
 
 In order to use Babel, you need to create a `.babelrc` into your project, with the presets that you want installed.
 
-!!! note "Example"
-    Run: 
-    ```bash
-    $ npm install --save-dev babel-preset-es2015
-    ```
-    And create a `.babelrc` file:
-    ```json
-    {
-    "presets": ["es2015"]
-    }
-    ```
+**Example:**
+
+Run: 
+```bash
+$ npm install --save-dev babel-preset-es2015
+```
+And create a `.babelrc` file:
+```json
+{
+"presets": ["es2015"]
+}
+```
 
 ### ESLint
 

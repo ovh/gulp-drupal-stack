@@ -14,11 +14,9 @@ pages:
   - Troubleshooting: troubleshooting.md
 
 markdown_extensions:
-  - admonition
   - toc:
       permalink: True
-  - mdx_sections
-  - pymdownx.superfences
+  - admonition:
 
 extra_css:
   - extra.css
