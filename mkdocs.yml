@@ -3,9 +3,11 @@ docs_dir: docs
 
 pages:
   - Home: index.md
+  - Usage: usage.md
   - Features:
     - CSS: features/css.md
     - JS: features/js.md
+    - Webpack: features/webpack.md
     - Icons: features/icons.md
     - Drupal-Drush: features/drupal-drush.md
     - BrowserSync: features/browser-sync.md

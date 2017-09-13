@@ -1,0 +1,76 @@
+## Commands
+
+- `gulp` - Run all compile tasks, and watch for changes
+- `gulp compile` - Run all compile tasks
+- `gulp validate` - Run all validate tasks (eslint, ...)
+- `gulp watch` - Watch for changes
+- `gulp clean` - Run all clean tasks
+
+## Specifics Commands
+
+You can launch specifics tasks, for example "lint CSS files". In this example, you can use `gulp validate:css`.
+
+All the documentation can be found inside the [Features](features) section.
+
+
+### Babel
+
+In order to use Babel, you need to create a `.babelrc` into your project, with the presets that you want installed.
+
+**Example:**
+Run: 
+```bash
+$ npm install --save-dev babel-preset-es2015
+```
+And create a `.babelrc` file:
+```json
+{
+  "presets": ["es2015"]
+}
+```
+
+### ESLINT
+
+You need to create a `.eslintrc.js` file, and specify whitch rules that you want (`eslint-config-ovh` is recommanded).
+
+**Example:**
+Run: 
+```bash
+$ npm install --save-dev babel-eslint
+$ npm install --save-dev eslint-config-ovh
+```
+And create a `.eslintrc.js` file:
+```javascript
+"use strict";
+// rule reference: http://eslint.org/docs/rules
+// individual rule reference: http://eslint.org/docs/rules/NAME-OF-RULE
+
+module.exports = {
+    extends: "ovh/configs/es6-browser",
+    globals: {
+        Drupal: true,
+        jQuery: true,
+        _: true,
+        domready: true
+    }
+};
+```
+
+### STYLELINT
+
+You need to create a `.stylelintrc.js` file, and specify whitch rules that you want (`stylelint-config-ovh` is recommanded).
+
+**Example:**
+Run: 
+```bash
+$ npm install --save-dev stylelint-scss
+$ npm install --save-dev stylelint-config-ovh
+```
+And create a `.stylelintrc.js` file:
+```javascript
+"use strict";
+
+module.exports = {
+    "extends": "stylelint-config-ovh/configs/scss"
+};
+```

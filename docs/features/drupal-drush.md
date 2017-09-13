@@ -12,6 +12,6 @@ Launch a Drupal command.
 
 ## Notes
 
-- If you want to use it with [Drucker](https://github.com/ovh-ux/drucker), you need to:
+If you want to use it with [Drucker](https://github.com/ovh-ux/drucker), you need to:
   - set the `config.drupal.dir` to `./path/to/drucker`
   - set the `config.drupal.command` to `. load-env && drush cc all`

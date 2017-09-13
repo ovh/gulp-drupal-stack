@@ -18,16 +18,17 @@ This theme core is to be included in your main project and sets up many Gulp tas
 
 All is easily configurable by changing values in your `gulpfile.yml` file in your project. These values are merged into the `gulpfile.default.yml` file - look there for the available options and defaults.
 
+
+## Documentation
+
+Full documentation is available [here](https://drucker.readthedocs.io/en/latest).
+
+
 ### TODO
 
 - BrowserSync live reload and style injection (should be OK, not tested)
 - Images => Images optimization (to validate)
 - JS specs => JS tests using Karma
-
-
-## Documentation
-
-Full documentation is available [here](https://drucker.readthedocs.io/en/latest).
 
 
 ## Contributing

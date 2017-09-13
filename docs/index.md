@@ -16,12 +16,6 @@ This theme core is to be included in your main project and sets up many Gulp tas
 
 All is easily configurable by changing values in your `gulpfile.yml` file in your project. These values are merged into the `gulpfile.default.yml` file - look there for the available options and defaults.
 
-### TODO
-
-- BrowserSync live reload and style injection (should be OK, not tested)
-- Images => Images optimization (to validate)
-- JS specs => JS tests using Karma
-
 
 ## Prerequisites
 
@@ -31,66 +25,26 @@ All is easily configurable by changing values in your `gulpfile.yml` file in you
 
 ## Installation
 
-- `npm install gulp-drupal-theme-core --save-dev`
-- Create a `gulpfile.yml` in your theme, and overrides options from the `gulpfile.default.yml`
-- Make a `gulpfile.js` in your project, with:
-```js
-    "use strict";
+Follow theses steps:
 
-    const gulp = require("gulp");
-    const yaml = require("js-yaml");
-    const fs = require("fs");
-
-    // `rc` allows all config options to be overridden with CLI flags like `--js.enabled="` or in `~/.p2-theme-corerc` files, among many others: https://www.npmjs.com/package/rc
-    const config = require("rc")("gulp-drupal-theme-core", yaml.safeLoad(fs.readFileSync(`${__dirname}/gulpfile.yml`, "utf8"), { json: true }));
-    const themeCore = require("gulp-drupal-theme-core");
-
-    const tasks = {
-        compile: [],
-        watch: [],
-        validate: [],
-        clean: [],
-        "default": []
-    };
-
-    themeCore(gulp, config, tasks);
-
-    gulp.task("clean", gulp.parallel(tasks.clean));
-    gulp.task("compile", gulp.series(
-        "clean",
-        gulp.series(tasks.compile)
-    ));
-    gulp.task("validate", gulp.parallel(tasks.validate));
-    gulp.task("watch", gulp.parallel(tasks.watch));
-    tasks.default.push("watch");
-    gulp.task("default", gulp.series(
-        "compile",
-        gulp.parallel(tasks.default)
-    ));
+```bash
+$ cd <your-theme>
+# Install it
+$ npm install gulp-drupal-theme-core --save-dev
+# Create a gulpfile.js
+$ cp node_modules/gulp-drupal-theme-core/templates/gulpfile.js ./
+# Create a gulpfile.yml (config file)
+$ vi gulpfile.yml
+# <set the config that you want, and save it>
 ```
 
-### Babel
-In order to use Babel, you need to create a `.babelrc` into your project, with the presets that you want installed.
-
-### ESLINT
-You need to create a `.eslintrc.js` file, and specify whitch rules that you want (`eslint-config-ovh` is recommanded).
+!!! note ""
+    See the [Config](config.yml) section for the documentation about the configuration file.
 
 
 ## Usage
 
-### Global Commands
-
-- `gulp` - Run all compile tasks, and watch for changes
-- `gulp compile` - Run all compile tasks
-- `gulp validate` - Run all validate tasks (eslint, ...)
-- `gulp watch` - Watch for changes
-- `gulp clean` - Run all clean tasks
-
-### Specifics Commands
-
-You can launch specifics tasks, for example "lint CSS files". In this example, you can use `gulp validate:css`.
-
-All the documentation can be found inside the [Features](features) section.
+See [Usage](usage.md) section.
 
 
 ## Credits
