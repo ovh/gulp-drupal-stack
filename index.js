@@ -38,7 +38,7 @@ module.exports = (gulp, userConfig, tasks) => {
   /* eslint-enable global-require */
 
   // This is a fix fo Gulp, because series and paparallel needs at least one task
-  gulp.task('nothing-to-do', function (done) { return done(); });
+  gulp.task('nothing-to-do', done => done());
 
   if (!tasks.clean.length) {
     tasks.clean.push('nothing-to-do');
