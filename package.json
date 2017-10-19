@@ -1,7 +1,7 @@
 {
-  "name": "gulp-drupal-theme-core",
+  "name": "gulp-drupal-stack",
   "version": "0.1.0",
-  "description": "OVH Gulp tasks Drupal Theme Core",
+  "description": "OVH Gulp tasks for Drupal themes and modules",
   "main": "index.js",
   "authors": [
     {
@@ -25,7 +25,7 @@
   },
   "license": "MIT",
   "dependencies": {
-    "autoprefixer": "^7.1.2",
+    "autoprefixer": "^7.1.5",
     "browser-sync": "^2.18.13",
     "clone": "^2.1.1",
     "del": "^3.0.0",
@@ -36,31 +36,31 @@
     "gulp-concat": "^2.6.1",
     "gulp-eslint": "^4.0.0",
     "gulp-flatten": "^0.3.1",
-    "gulp-iconfont": "^9.0.0",
+    "gulp-iconfont": "^9.0.2",
     "gulp-if": "^2.0.2",
-    "gulp-inject": "^4.2.0",
+    "gulp-inject": "^4.3.0",
     "gulp-notify": "^3.0.0",
     "gulp-plumber": "^1.1.0",
     "gulp-postcss": "^7.0.0",
     "gulp-sass": "^3.1.0",
     "gulp-sass-glob": "github:tomgrooffer/gulp-sass-glob#99d06af",
     "gulp-sourcemaps": "^2.6.1",
-    "gulp-stylelint": "^4.0.0",
+    "gulp-stylelint": "^5.0.0",
     "gulp-uglify": "^3.0.0",
-    "js-yaml": "^3.9.1",
+    "js-yaml": "^3.10.0",
     "lodash": "^4.17.4",
     "main-bower-files": "^2.13.1",
     "node-notifier": "^5.1.2",
     "sassdoc": "^2.3.0",
     "through2": "^2.0.3",
-    "webpack": "^3.5.5"
+    "webpack": "^3.8.1"
   },
   "devDependencies": {
-    "eslint": "^4.5.0",
-    "eslint-config-airbnb": "^15.1.0",
-    "eslint-plugin-import": "^2.7.0",
+    "eslint": "^4.9.0",
+    "eslint-config-airbnb": "^16.1.0",
+    "eslint-plugin-import": "^2.8.0",
     "gulp-debug": "^3.1.0",
     "gulp-util": "^3.0.8",
-    "nodemon": "^1.11.0"
+    "nodemon": "^1.12.1"
   }
 }

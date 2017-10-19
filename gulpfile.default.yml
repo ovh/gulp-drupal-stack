@@ -8,7 +8,7 @@ css:
     - scss/**/*.scss
   flattenDestOutput: true
   lint:
-    enabled: true
+    enabled: false
     failOnError: true
     extraSrc:
       - scss/**/*.scss
@@ -21,7 +21,7 @@ css:
     - last 3 versions
     - IE >= 10
   includePaths:
-    - "./node_modules"
+    - './node_modules'
   sassdoc:
     enabled: false
     dest: dist/sassdoc
@@ -47,14 +47,18 @@ js:
   babel: true
   bundleBower: false
   bundleBowerExclusions: []
-  bowerBasePath: "./"
+  bowerBasePath: './'
   eslint:
-    enabled: true
+    enabled: false
     src:
       - js/**/*.js
 webpack:
   enabled: false
   config: ./webpack.config.js
+  eslint:
+    enabled: false
+    src:
+      - js/**/*.js
 icons:
   enabled: false
   src: images/icons/*.svg
@@ -68,7 +72,7 @@ icons:
   templates:
     enabled: true
     css:
-      src: node_modules/gulp-drupal-theme-core/templates/_icons.scss
+      src: node_modules/gulp-drupal-stack/templates/_icons.scss
       dest: scss/base/
     # demo:
     #   src: templates/component/_icons.twig.tpl
@@ -82,7 +86,7 @@ browserSync:
   enabled: false
   port: 3050
   watchFiles: []
-  baseDir: "./"
+  baseDir: './'
   startPath: pattern-lab/public/
   openBrowserAtStart: false
   browser:
@@ -95,5 +99,5 @@ drupal:
   watch:
     - template.php
     - templates/**
-  command: drush cc all
-  dir: "./"
+  command: drush cr
+  dir: './'

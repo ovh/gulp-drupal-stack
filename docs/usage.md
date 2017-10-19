@@ -16,7 +16,8 @@ You can find all the available options and defaults settings inside the `gulpfil
 ## Commands
 
 - `gulp` - Run all compile tasks, and watch for changes
-- `gulp compile` - Run all compile tasks
+- `gulp compile` or `gulp build` - Run all compile tasks
+- `gulp test` - Run all tests tasks (unit tests, ...)
 - `gulp validate` - Run all validate tasks (eslint, ...)
 - `gulp watch` - Watch for changes
 - `gulp clean` - Run all clean tasks
@@ -35,27 +36,27 @@ In order to use Babel, you need to create a `.babelrc` into your project, with t
 
 **Example:**
 
-Run: 
+Run:
 ```bash
 $ npm install --save-dev babel-preset-es2015
 ```
 And create a `.babelrc` file:
 ```json
 {
-    "presets": ["es2015"]
+  "presets": ["es2015"]
 }
 ```
 
 ### ESLint
 
-You need to create a `.eslintrc.js` file, and specify whitch rules that you want (`eslint-config-ovh` is recommanded).
+You need to create a `.eslintrc.js` file, and specify whitch rules that you want (`eslint-config-drupal` is recommanded).
 
 **Example:**
 
-Run: 
+Run:
 ```bash
 $ npm install --save-dev babel-eslint
-$ npm install --save-dev eslint-config-ovh
+$ npm install --save-dev eslint-config-drupal
 ```
 And create a `.eslintrc.js` file:
 ```javascript
@@ -64,33 +65,27 @@ And create a `.eslintrc.js` file:
 // individual rule reference: http://eslint.org/docs/rules/NAME-OF-RULE
 
 module.exports = {
-    extends: "ovh/configs/es6-browser",
-    globals: {
-        Drupal: true,
-        jQuery: true,
-        _: true,
-        domready: true
-    }
+  extends: 'eslint-config-drupal'
 };
 ```
 
 ### StyleLint
 
-You need to create a `.stylelintrc.js` file, and specify whitch rules that you want (`stylelint-config-ovh` is recommanded).
+You need to create a `.stylelintrc.js` file, and specify whitch rules that you want (`stylelint-config-drupal` is recommanded).
 
 **Example:**
 
-Run: 
+Run:
 ```bash
 $ npm install --save-dev stylelint-scss
-$ npm install --save-dev stylelint-config-ovh
+$ npm install --save-dev stylelint-config-drupal
 ```
 And create a `.stylelintrc.js` file:
 ```javascript
-"use strict";
+'use strict';
 
 module.exports = {
-    "extends": "stylelint-config-ovh/configs/scss"
+  'extends': 'stylelint-config-drupal'
 };
 ```
 

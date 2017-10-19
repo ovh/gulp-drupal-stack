@@ -1,9 +1,9 @@
-Gulp Drupal Theme - Core
-========================
+Gulp Drupal Stack
+=================
 
-![gulp-drupal-theme-core-banner](banner.png)
+![gulp-drupal-stack-banner](banner.png)
 
-This theme core is to be included in your main project and sets up many Gulp tasks that can work in many flexible ways by passing in different `config` objects, which can be based off of `gulpfile.default.yml` (and is merged with).
+This stack core is to be included in your main project and sets up many Gulp tasks that can work in many flexible ways by passing in different `config` objects, which can be based off of `gulpfile.default.yml` (and is merged with).
 
 
 ## Features
@@ -28,11 +28,13 @@ All is easily configurable by changing values in your `gulpfile.yml` file in you
 Follow theses steps:
 
 ```bash
-$ cd <your-theme>
+$ cd <your-theme-or-module>
+# (optional) init a new npm module
+$ npm init
 # Install it
-$ npm install gulp-drupal-theme-core --save-dev
+$ npm install gulp-drupal-stack --save-dev
 # Create a gulpfile.js
-$ cp node_modules/gulp-drupal-theme-core/templates/gulpfile.js ./
+$ cp node_modules/gulp-drupal-stack/templates/gulpfile.js ./
 # Create a gulpfile.yml (config file)
 $ vi gulpfile.yml
 # <set the config that you want, and save it>

@@ -1,30 +1,17 @@
-# EditorConfig helps developers define and maintain consistent
-# coding styles between different editors and IDEs
-# editorconfig.org
+# Drupal editor configuration normalization
+# @see http://editorconfig.org/
 
+# This is the top-most .editorconfig file; do not search in parent directories.
 root = true
 
-
+# All files.
 [*]
-
-# Change these settings to your own preference
+end_of_line = LF
 indent_style = space
-indent_size = 4
-
-# We recommend you to keep these unchanged
-end_of_line = lf
+indent_size = 2
 charset = utf-8
 trim_trailing_whitespace = true
 insert_final_newline = true
 
-[*.md]
-trim_trailing_whitespace = false
-
-# Tab indentation (no size specified)
-[Makefile]
-indent_style = tab
-
-# Matches the exact files either package.json or bower.json
-[{package.json,bower.json,.jscsrc,.jshintrc,.jshintrc-spec}]
-indent_style = space
-indent_size = 2
+[composer.{json,lock}]
+indent_size = 4
