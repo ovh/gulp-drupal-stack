@@ -24,7 +24,7 @@ gulp.task('compile', gulp.series(
   'clean',
   gulp.series(tasks.compile)
 ));
-gulp.task('build', ['compile']);   // alias
+gulp.task('build', gulp.series(['compile']));   // alias
 gulp.task('validate', gulp.parallel(tasks.validate));
 gulp.task('test', gulp.parallel(tasks.test));
 gulp.task('watch', gulp.parallel(tasks.watch));

@@ -37,6 +37,28 @@ module.exports = (gulp, userConfig, tasks) => {
 
   /* eslint-enable global-require */
 
+  // This is a fix fo Gulp, because series and paparallel needs at least one task
+  gulp.task('nothing-to-do', function (done) { return done(); });
+
+  if (!tasks.clean.length) {
+    tasks.clean.push('nothing-to-do');
+  }
+  if (!tasks.compile.length) {
+    tasks.compile.push('nothing-to-do');
+  }
+  if (!tasks.validate.length) {
+    tasks.validate.push('nothing-to-do');
+  }
+  if (!tasks.test.length) {
+    tasks.test.push('nothing-to-do');
+  }
+  if (!tasks.watch.length) {
+    tasks.watch.push('nothing-to-do');
+  }
+  if (!tasks.default.length) {
+    tasks.default.push('nothing-to-do');
+  }
+
   // Instead of `gulp.parallel`, which is what is set in Pattern Lab Starter's `gulpfile.js`, this
   // uses `gulp.series`. Needed to help with the Gulp task dependencies lost going from v3 to v4.
   // We basically need icons compiled before CSS & CSS/JS compiled before inject:pl before pl
