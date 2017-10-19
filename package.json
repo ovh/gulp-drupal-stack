@@ -1,6 +1,6 @@
 {
   "name": "gulp-drupal-stack",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "OVH Gulp tasks for Drupal themes and modules",
   "main": "index.js",
   "authors": [
