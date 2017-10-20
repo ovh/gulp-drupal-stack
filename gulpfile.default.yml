@@ -12,6 +12,10 @@ css:
     failOnError: true
     extraSrc:
       - scss/**/*.scss
+  csscombx:
+    enabled: false
+    extraSrc:
+      - scss/**/*.scss
   sourceComments: false
   sourceMap:
     enabled: false

@@ -8,7 +8,7 @@ This stack core is to be included in your main project and sets up many Gulp tas
 
 ## Features
 
-- SCSS => CSS compiling with LibSass, PostCSS, linting, and SourceMaps
+- SCSS => CSS compiling with LibSass, PostCSS, linting, CSScomb(x), and SourceMaps
 - JS compiling via Babel, linting and aggregation
 - WebPack module bundling
 - SVG => Font Icons compiling with support for adding mixins and classes to SCSS along with a demo page

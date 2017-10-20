@@ -60,7 +60,7 @@ $ npm install --save-dev eslint-config-drupal
 ```
 And create a `.eslintrc.js` file:
 ```javascript
-"use strict";
+'use strict';
 // rule reference: http://eslint.org/docs/rules
 // individual rule reference: http://eslint.org/docs/rules/NAME-OF-RULE
 
@@ -88,5 +88,9 @@ module.exports = {
   'extends': 'stylelint-config-drupal'
 };
 ```
+
+### CSScombx
+
+The module follows the rules from [Drupal](https://www.drupal.org/docs/develop/standards/css/csscomb-settings-for-drupal-css-formatting-and-sort-tool).
 
 ---
