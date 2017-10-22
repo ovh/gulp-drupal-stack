@@ -1,4 +1,4 @@
-Create a connection between your desk and your website, using BrowserSync.
+Create a connection between your desk and your website, using Browsersync.
 
 ## Commands
 
