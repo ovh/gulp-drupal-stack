@@ -1,7 +1,7 @@
 Compiles JS files using Babel. You can optionaly concat, uglify, and add sourcemaps.
 
 !!! note ""
-    We recommand to use [Webpack](features/webpack.md) instead.
+    We recommand to use [webpack](features/webpack.md) instead.
 
 ## Commands
 
