@@ -10,7 +10,7 @@ pages:
     - Webpack: features/webpack.md
     - Icons: features/icons.md
     - Drupal-Drush: features/drupal-drush.md
-    - BrowserSync: features/browser-sync.md
+    - Browsersync: features/browser-sync.md
   - Troubleshooting: troubleshooting.md
 
 markdown_extensions:

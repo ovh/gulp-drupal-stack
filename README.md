@@ -30,7 +30,7 @@ Full documentation is available [here](https://gulp-drupal-stack.readthedocs.io/
 
 #### TODO
 
-- BrowserSync live reload and style injection (should be OK, not tested)
+- Browsersync live reload and style injection (should be OK, not tested)
 - Images => Images optimization (to validate)
 - JS specs => JS tests using Karma
 
