@@ -3,7 +3,7 @@ Gulp Drupal Stack
 
 ![gulp-drupal-stack-banner](banner.png)
 
-[![Maintenance](https://img.shields.io/maintenance/yes/2017.svg)]()
+[![Maintenance](https://img.shields.io/maintenance/yes/2018.svg)]()
 [![Gitter](https://img.shields.io/gitter/room/nwjs/nw.js.svg)](https://gitter.im/ovh/ux)
 [![travis](https://travis-ci.org/ovh-ux/gulp-drupal-stack.svg?branch=master)](https://travis-ci.org/ovh-ux/gulp-drupal-stack)
 [![Documentation Status](https://readthedocs.org/projects/gulp-drupal-stack/badge/?version=latest)](http://gulp-drupal-stack.readthedocs.io/en/latest/?badge=latest)
