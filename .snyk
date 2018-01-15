@@ -1,0 +1,31 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.8.0
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:debug:20170905':
+    - gulp-iconfont > plexer > debug:
+        patched: '2017-12-05T23:04:50.559Z'
+    - gulp-iconfont > gulp-ttf2eot > bufferstreams > debug:
+        patched: '2017-12-05T23:04:50.559Z'
+    - gulp-iconfont > gulp-ttf2woff > bufferstreams > debug:
+        patched: '2017-12-05T23:04:50.559Z'
+    - gulp-iconfont > gulp-ttf2woff2 > bufferstreams > debug:
+        patched: '2017-12-05T23:04:50.559Z'
+    - gulp-iconfont > gulp-ttf2woff2 > ttf2woff2 > bufferstreams > debug:
+        patched: '2017-12-05T23:04:50.559Z'
+    - gulp-iconfont > gulp-svg2ttf > bufferstreams > debug:
+        patched: '2017-12-05T23:04:50.559Z'
+  'npm:ms:20170412':
+    - gulp-iconfont > gulp-ttf2woff2 > ttf2woff2 > bufferstreams > debug > ms:
+        patched: '2017-12-05T23:04:50.559Z'
+    - gulp-iconfont > gulp-svg2ttf > bufferstreams > debug > ms:
+        patched: '2017-12-05T23:04:50.559Z'
+    - gulp-iconfont > gulp-ttf2eot > bufferstreams > debug > ms:
+        patched: '2017-12-05T23:04:50.559Z'
+    - gulp-iconfont > gulp-ttf2woff > bufferstreams > debug > ms:
+        patched: '2017-12-05T23:04:50.559Z'
+    - gulp-iconfont > gulp-ttf2woff2 > bufferstreams > debug > ms:
+        patched: '2017-12-05T23:04:50.559Z'
+    - gulp-iconfont > plexer > debug > ms:
+        patched: '2017-12-05T23:04:50.559Z'
