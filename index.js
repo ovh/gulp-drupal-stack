@@ -27,6 +27,10 @@ module.exports = (gulp, userConfig, tasks) => {
     require('./lib/css')(gulp, config, tasks);
   }
 
+  if (config.patternLab.enabled) {
+    require('./lib/pattern-lab--php-twig')(gulp, config, tasks);
+  }
+
   if (config.drupal.enabled) {
     require('./lib/drupal')(gulp, config, tasks);
   }
