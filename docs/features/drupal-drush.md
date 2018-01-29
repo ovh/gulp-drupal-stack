@@ -7,6 +7,7 @@ Launch a Drupal command.
 
 ## Config
 
+- `config.drupal.themeFile` - The filename of your YOUR_THEME.info.yml (required for PatternLab tasks)
 - `config.drupal.dir` - The root directory for Drush
 - `config.drupal.command` - The drush command to execute
 
