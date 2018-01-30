@@ -22,6 +22,12 @@ From your Drupal Twig templates in `templates/` you can `{% include %}`, `{% ext
 
 For a demonstration in a sample codebase of how exactly to integrate templates, see the [`drupal-lab`](https://github.com/phase2/drupal-lab) repo; in particular note how both a [node teaser template](https://github.com/phase2/drupal-lab/blob/master/web/themes/dashing/templates/content/node--article--teaser.html.twig) and a [views field template](https://github.com/phase2/drupal-lab/blob/master/web/themes/dashing/templates/views/views-view-fields--newspage--page.html.twig) in the Drupal `templates/` folder can embed the [card template](https://github.com/phase2/drupal-lab/blob/master/web/themes/dashing/pattern-lab/source/_patterns/02-molecules/cards/card.twig) from Pattern Lab while formatting the data.
 
+### A word on twig template inheritance
+
+- `include`: Dump the contents of that template into this one.
+- `extends`: Take the old template and allow me to override blocks defined in the other template - I don't get to redefine everything and I don't get to define new blocks - I just get to suppress the old block definition and redefine it (and then I can dump the parent template's block definition into my definition if I use` {{ parent() }}` – kinda like doing an include just of that one block from the parent template's definition into your child template definition
+- `embed`: Include but then override blocks from that include (super useful for layouts).
+
 
 ## Additional features
 
