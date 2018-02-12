@@ -59,9 +59,7 @@
     "node-notifier": "^5.2.1",
     "sassdoc": "^2.5.0",
     "stylelint": "^8.4.0",
-    "stylelint-checkstyle-formatter": "^0.1.1",
-    "stylelint-config-standard": "^18.0.0",
-    "stylelint-no-browser-hacks": "^1.1.0",
+    "stylelint-scss": "^2.3.0",
     "through2": "^2.0.3",
     "webpack": "^3.11.0"
   },

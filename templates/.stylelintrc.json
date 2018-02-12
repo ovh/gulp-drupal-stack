@@ -1,29 +1,21 @@
 {
-  "extends": "stylelint-config-standard",
   "plugins": [
-    "stylelint-no-browser-hacks/lib"
+    "stylelint-scss",
   ],
+  "ignoreFiles": [],
   "rules": {
-    "comment-empty-line-before": null,
-    "declaration-block-no-duplicate-properties": null,
-    "function-linear-gradient-no-nonstandard-direction": null,
-    "function-whitespace-after": null,
-    "no-unknown-animations": true,
-    "number-leading-zero": "always",
-    "plugin/no-browser-hacks": [true, {
-      "browsers": [
-        "ie >= 9",
-        "edge >= 13",
-        "firefox >= 5",
-        "opera >= 12",
-        "safari >= 5",
-        "chrome >= 56"
-      ]
-    }],
-    "property-no-unknown": null,
-    "rule-empty-line-before": null,
-    "selector-pseudo-element-colon-notation": null,
-    "shorthand-property-no-redundant-values": null,
-    "unit-whitelist": ["deg", "em", "ex", "ms", "rem", "%", "s", "px", "vw", "vh"]
+    "declaration-colon-space-after": "always",
+    "declaration-no-important": true,
+    "indentation": 2,
+    "max-nesting-depth": 3,
+    "selector-max-specificity": "0,3,3",
+    "selector-no-id": true,
+    "scss/at-extend-no-missing-placeholder": true,
+    "scss/selector-no-redundant-nesting-selector": true,
+    "at-rule-no-vendor-prefix": true,
+    "media-feature-name-no-vendor-prefix": true,
+    "property-no-vendor-prefix": true,
+    "selector-no-vendor-prefix": true,
+    "value-no-vendor-prefix": true,
   }
 }
