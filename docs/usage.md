@@ -75,45 +75,24 @@ And create a `.babelrc` file:
 
 ### ESLint
 
-You need to create a `.eslintrc.js` file, and specify whitch rules that you want (`eslint-config-drupal` is recommanded).
+You need to create a `.eslintrc.yml` file, and specify whitch rules that you want.
 
-**Example:**
-
-Run:
-```bash
-$ npm install --save-dev babel-eslint
-$ npm install --save-dev eslint-config-drupal
-```
-And create a `.eslintrc.js` file:
-```javascript
-'use strict';
-// rule reference: http://eslint.org/docs/rules
-// individual rule reference: http://eslint.org/docs/rules/NAME-OF-RULE
-
-module.exports = {
-  extends: 'eslint-config-drupal'
-};
+The stack contains a template which follows the Drupal community rules.
+Create a `.eslintrc.yml` file with:
+```yml
+extends: "./node_modules/gulp-drupal-stack/templates/.eslintrc.json"
 ```
 
 ### StyleLint
 
-You need to create a `.stylelintrc.js` file, and specify whitch rules that you want (`stylelint-config-drupal` is recommanded).
+You need to create a `.stylelintrc.yml` file, and specify whitch rules that you want.
 
-**Example:**
-
-Run:
-```bash
-$ npm install --save-dev stylelint-scss
-$ npm install --save-dev stylelint-config-drupal
+The stack contains a template which follows the Drupal community rules.
+Create a `.stylelintrc.yml` file with:
+```yml
+extends: "./node_modules/gulp-drupal-stack/templates/.stylelintrc.json"
 ```
-And create a `.stylelintrc.js` file:
-```javascript
-'use strict';
 
-module.exports = {
-  'extends': 'stylelint-config-drupal'
-};
-```
 
 ### CSScombx
 
