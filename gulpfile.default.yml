@@ -164,7 +164,7 @@ drupal:
   enabled: false
   themeFile: patternlab.info.yml
   watch:
-    - *.theme
+    - "*.theme"
     - templates/**
   command: drush cr
   dir: './'
