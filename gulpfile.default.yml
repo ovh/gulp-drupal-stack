@@ -168,3 +168,10 @@ drupal:
     - templates/**
   command: drush cr
   dir: './'
+copy:
+  enabled: false
+  # files:
+  #   - src: "node_modules/lodash/dist/*.js"
+  #     dest: "dist/"
+  #     concat: true
+  #     destName: "lodash.js"

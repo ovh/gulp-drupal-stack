@@ -39,6 +39,10 @@ module.exports = (gulp, userConfig, tasks) => {
     require('./lib/webpack')(gulp, config, tasks);
   }
 
+  if (config.copy.enabled) {
+    require('./lib/copy')(gulp, config, tasks);
+  }
+
   /* eslint-enable global-require */
 
   // This is a fix fo Gulp, because series and paparallel needs at least one task

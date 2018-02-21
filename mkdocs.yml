@@ -11,6 +11,7 @@ pages:
     - Icons: features/icons.md
     - Drupal-Drush: features/drupal-drush.md
     - Browsersync: features/browser-sync.md
+    - Copy: features/copy.md
   - Troubleshooting: troubleshooting.md
 
 markdown_extensions:
