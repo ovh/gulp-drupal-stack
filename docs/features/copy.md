@@ -1,4 +1,4 @@
-Copy any files to a destination folder (usefull for node_modules vendoring).
+Copy any files to a destination folder (useful for node_modules vendoring).
 
 ## Usage
 
