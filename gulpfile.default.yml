@@ -97,6 +97,11 @@ sprite:
   imgPathPrefix: ../dist/
   spritesheetName: sprite
   imagemin: true
+  retina:
+    enabled: false
+    imgName: sprite@2x.png
+    filter:
+      - images/sprite/*@2x.png
 patternLab:
   enabled: false
   configFile: pattern-lab/config/config.yml
