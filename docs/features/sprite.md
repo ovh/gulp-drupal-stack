@@ -16,10 +16,10 @@ Or this HTML class:
 <span class="sprite-facebook"></span>
 ```
 
-### Retina support
+### Retina Display support
 
-You can generate a second sprite for Retina.
-First, you need to duplicates all your images for Retina, and append "@2x" in the filename. For example: "facebook.png" and "facebook@2x.png".
+You can generate a second sprite for Retina Display.
+First, you need to duplicates all your images and append "@2x" in the filename. For example: "facebook.png" and "facebook@2x.png".
 
 After enabled it, you can now use the mixin:
 
@@ -27,7 +27,7 @@ After enabled it, you can now use the mixin:
 @include retina-sprite('sprite-facebook');
 ```
 
-It will automatically take sprite@2x for Retina devices, and normal sprite for others.
+It will automatically take sprite@2x for Retina Display, and normal sprite for others.
 
 
 ## Commands
