@@ -86,6 +86,22 @@ icons:
     - eot
     - woff
     - svg
+sprite:
+  enabled: false
+  src:
+    - images/sprite/*.png
+  imgDest: dist/
+  cssDest: scss/base/
+  imgName: sprite.png
+  cssName: _sprite.scss
+  imgPathPrefix: ../dist/
+  spritesheetName: sprite
+  imagemin: true
+  retina:
+    enabled: false
+    imgName: sprite@2x.png
+    filter:
+      - images/sprite/*@2x.png
 patternLab:
   enabled: false
   configFile: pattern-lab/config/config.yml

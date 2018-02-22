@@ -9,6 +9,7 @@ pages:
     - JS: features/js.md
     - Webpack: features/webpack.md
     - Icons: features/icons.md
+    - Sprite: features/sprite.md
     - Drupal-Drush: features/drupal-drush.md
     - Browsersync: features/browser-sync.md
     - Copy: features/copy.md

@@ -19,6 +19,10 @@ module.exports = (gulp, userConfig, tasks) => {
     require('./lib/icons')(gulp, config, tasks);
   }
 
+  if (config.sprite.enabled) {
+    require('./lib/sprite')(gulp, config, tasks);
+  }
+
   if (config.js.enabled) {
     require('./lib/js')(gulp, config, tasks);
   }
