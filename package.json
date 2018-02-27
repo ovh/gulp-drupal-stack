@@ -21,7 +21,9 @@
     "start": "nodemon --watch index.js --watch ./lib --exec 'npm test' ",
     "preversion": "npm run test",
     "postversion": "git push && git push --tags",
-    "gulp": "gulp"
+    "gulp": "gulp",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "license": "MIT",
   "dependencies": {
@@ -66,7 +68,8 @@
     "stylelint-scss": "^2.3.0",
     "through2": "^2.0.3",
     "vinyl-buffer": "^1.0.1",
-    "webpack": "^3.11.0"
+    "webpack": "^3.11.0",
+    "snyk": "^1.69.10"
   },
   "devDependencies": {
     "eslint": "^4.17.0",
@@ -75,5 +78,6 @@
     "gulp-debug": "^3.2.0",
     "gulp-util": "^3.0.8",
     "nodemon": "^1.14.12"
-  }
+  },
+  "snyk": true
 }
