@@ -54,6 +54,8 @@
     "gulp-sass-glob": "github:tomgrooffer/gulp-sass-glob#99d06af",
     "gulp-sourcemaps": "^2.6.4",
     "gulp-stylelint": "^6.0.0",
+    "gulp-svg-sprite": "^1.4.0",
+    "gulp-svgmin": "^1.2.4",
     "gulp-uglify": "^3.0.0",
     "gulp.spritesmith": "^6.9.0",
     "js-yaml": "^3.10.0",
