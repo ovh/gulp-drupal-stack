@@ -2,7 +2,7 @@
 spritesvg:
   enabled: false
   src:
-    - img/icons/*.svg
+    - images/icons/*.svg
   dest: dist/ 
 css:
   enabled: false
