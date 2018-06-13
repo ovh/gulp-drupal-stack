@@ -1,8 +1,7 @@
 ---
 spritesvg:
   enabled: false
-  src:
-    - images/icons/*.svg
+  src: images/icons/
   dest: dist/ 
 css:
   enabled: false
