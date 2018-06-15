@@ -21,6 +21,7 @@ This stack core is to be included in your main project and sets up many Gulp tas
 - Copy any files to an other location
 - Sprite generator (with Retina Display support)
 - SVG Icon Support ( generation of `sprite.svg` file as a collection of symbol wich are expected to be implemented with `<use>` https://developer.mozilla.org/en-US/docs/Web/SVG/Element/use )
+*Note: symbol IDs are prefixed with `icon-` and append file name
 *Side note: get your designer to make icons monochrome and convert the strokes into paths, also simplify the paths down to single shapes.
 [Deprecated]
 - SVG => Font Icons compiling with support for adding mixins and classes to SCSS along with a demo page
