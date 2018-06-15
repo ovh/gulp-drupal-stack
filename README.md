@@ -20,7 +20,7 @@ This stack core is to be included in your main project and sets up many Gulp tas
 - Drupal file watching to trigger Drush cache clears
 - Copy any files to an other location
 - Sprite generator (with Retina Display support)
-- SVG Icon Support ( generation of `sprite.svg` file as a collection of symbol wich are expected to be implemented with `<use>` https://developer.mozilla.org/en-US/docs/Web/SVG/Element/use )  
+- SVG Icon Support (generation of `sprite.svg` file as a collection of symbol wich are expected to be implemented with `<use>` https://developer.mozilla.org/en-US/docs/Web/SVG/Element/use )  
 More info see doc. 
 [Deprecated]
 - SVG => Font Icons compiling with support for adding mixins and classes to SCSS along with a demo page
