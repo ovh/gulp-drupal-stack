@@ -10,7 +10,7 @@ It uses [gulp.svg-sprite](https://github.com/jkphl/gulp-svg-sprite) and [gulp.sv
 - Check if you need [svg4everybody](https://github.com/jonathantneal/svg4everybody#implementation-status)
 
 Notes:
-- Get your designer to make icons monochrome and convert the strokes into paths, also simplify the paths down to single shapes. Example: [preparing and exporting](https://medium.com/sketch-app-sources/preparing-and-exporting-svg-icons-in-sketch-1a3d65b239bb) svg icons in sketch
+- Get your designer to make icons monochrome and convert the strokes into paths, also simplify the paths down to single shapes. Example: [preparing and exporting](https://medium.com/sketch-app-sources/preparing-and-exporting-svg-icons-in-sketch-1a3d65b239bb) svg icons in sketch (This solution is useful for util icons, but could be extended for illustration type of icons)
 
 ## Commands
 
