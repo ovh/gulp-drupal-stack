@@ -1,9 +1,20 @@
 ---
 spritesvg:
-  enabled: false
-  src: images/icons/
+  enabled: true
   dest: dist/
-  prefix: icon-
+  iconUtil:
+    enable: true
+    options:
+      src: images/icons/
+      prefix: icon-util-
+      outputFileName: sprite-utility
+  iconIllustration:
+    enable: true
+    options:
+      src: images/icons-illustration/
+      prefix: icon-illu-
+      outputFileName: sprite-illustration
+
 css:
   enabled: false
   src:
