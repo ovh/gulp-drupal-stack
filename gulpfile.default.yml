@@ -1,15 +1,13 @@
 ---
-spritesvg:
+svg:
   enabled: true
   dest: dist/
   iconUtil:
-    enable: true
     options:
       src: images/icons/
       prefix: icon-util-
       outputFileName: sprite-utility
   iconIllustration:
-    enable: true
     options:
       src: images/icons-illustration/
       prefix: icon-illu-

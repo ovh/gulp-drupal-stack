@@ -27,8 +27,8 @@ module.exports = (gulp, userConfig, tasks) => {
     require('./lib/js')(gulp, config, tasks);
   }
 
-  if (config.spritesvg.enabled) {
-    require('./lib/spritesvg')(gulp, config, tasks);
+  if (config.svg.enabled) {
+    require('./lib/svg')(gulp, config, tasks);
   }
 
   if (config.css.enabled) {
