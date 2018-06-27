@@ -1,6 +1,6 @@
 ---
 svg:
-  enabled: true
+  enabled: false
   dest: dist/
   iconUtil:
     options:
