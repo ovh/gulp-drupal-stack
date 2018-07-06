@@ -8,6 +8,7 @@ pages:
     - CSS: features/css.md
     - JS: features/js.md
     - Webpack: features/webpack.md
+    - Svg: features/svg.md
     - Icons: features/icons.md
     - Sprite: features/sprite.md
     - Drupal-Drush: features/drupal-drush.md

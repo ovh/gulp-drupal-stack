@@ -1,4 +1,18 @@
 ---
+svg:
+  enabled: false
+  dest: dist/
+  iconUtil:
+    options:
+      src: images/icons/
+      prefix: icon-util-
+      outputFileName: sprite-utility
+  iconIllustration:
+    options:
+      src: images/icons-illustration/
+      prefix: icon-illu-
+      outputDirName: icons-illustration
+
 css:
   enabled: false
   src:

@@ -12,6 +12,8 @@ This stack core is to be included in your main project and sets up many Gulp tas
 - JS compiling via Babel, linting and aggregation
 - Pattern Lab Twig compiling & BrowserSync live reload and style injection
 - webpack module bundling
+- SVG sprite generation with symbol for utility icons
+- SVG clean for illutration type
 - SVG => Font Icons compiling with support for adding mixins and classes to SCSS along with a demo page
 - Drupal file watching to trigger Drush cache clears
 - Copy any files to an other location
