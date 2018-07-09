@@ -1,4 +1,9 @@
 ---
+spritesvg:
+  enabled: false
+  src: images/icons/
+  dest: dist/
+  prefix: icon-
 css:
   enabled: false
   src:

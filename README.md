@@ -17,10 +17,13 @@ This stack core is to be included in your main project and sets up many Gulp tas
 - SCSS => CSS compiling with LibSass, PostCSS, linting, CSScomb(x), and SourceMaps
 - JS compiling via Babel, linting and aggregation
 - webpack module bundling
-- SVG => Font Icons compiling with support for adding mixins and classes to SCSS along with a demo page
 - Drupal file watching to trigger Drush cache clears
 - Copy any files to an other location
 - Sprite generator (with Retina Display support)
+- SVG Icon Support (generation of `sprite.svg` file as a collection of symbol wich are expected to be implemented with `<use>` https://developer.mozilla.org/en-US/docs/Web/SVG/Element/use )  
+More info see doc. 
+[Deprecated]
+- SVG => Font Icons compiling with support for adding mixins and classes to SCSS along with a demo page
 
 All is easily configurable by changing values in your `gulpfile.yml` file in your project. These values are merged into the `gulpfile.default.yml` file - look there for the available options and defaults.
 
