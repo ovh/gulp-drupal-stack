@@ -14,7 +14,7 @@ You can then configure the JS bundles that you want:
 ## Commands
 
 - `gulp webpack` - Launch webpack compilation
-- `gulp validate:webpack` - Test JS with ESLINT
+- `gulp validate:webpack` - Test JS with ESLint
 - `gulp watch:webpack` - Watch and compile
 
 ---
