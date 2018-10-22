@@ -44,7 +44,7 @@ You can find all the available options and defaults settings inside the `gulpfil
 - `gulp` - Run all compile tasks, and watch for changes
 - `gulp compile` or `gulp build` - Run all compile tasks
 - `gulp test` - Run all tests tasks (unit tests, ...)
-- `gulp validate` - Run all validate tasks (eslint, ...)
+- `gulp validate` - Run all validate tasks (ESLint, ...)
 - `gulp watch` - Watch for changes
 - `gulp clean` - Run all clean tasks
 
@@ -75,12 +75,12 @@ And create a `.babelrc` file:
 
 ### ESLint
 
-You need to create a `.eslintrc.yml` file, and specify whitch rules that you want.
+You need to create a `.eslintrc.yaml` file, and specify whitch rules that you want.
 
 The stack contains a template which follows the Drupal community rules.
-Create a `.eslintrc.yml` file with:
+Create a `.eslintrc.yaml` file with:
 ```yml
-extends: "./node_modules/gulp-drupal-stack/templates/.eslintrc.json"
+extends: "./node_modules/gulp-drupal-stack/templates/.eslintrc.yaml"
 ```
 
 ### StyleLint
