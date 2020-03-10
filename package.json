@@ -3,16 +3,7 @@
   "version": "3.3.0",
   "description": "OVH Gulp tasks for Drupal themes and modules",
   "main": "index.js",
-  "authors": [
-    {
-      "name": "Evan Lovely",
-      "url": "https://github.com/EvanLovely"
-    },
-    {
-      "name": "OVH UX",
-      "url": "https://github.com/ovh-ux"
-    }
-  ],
+  "author": "OVH SAS",
   "keywords": [
     "prototyping"
   ],
