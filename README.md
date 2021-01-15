@@ -3,7 +3,6 @@ Gulp Drupal Stack
 
 ![gulp-drupal-stack-banner](banner.png)
 
-[![Gitter](https://img.shields.io/gitter/room/nwjs/nw.js.svg)](https://gitter.im/ovh/ux)
 [![travis](https://travis-ci.org/ovh/gulp-drupal-stack.svg?branch=master)](https://travis-ci.org/ovh/gulp-drupal-stack)
 [![Documentation Status](https://readthedocs.org/projects/gulp-drupal-stack/badge/?version=latest)](http://gulp-drupal-stack.readthedocs.io/en/latest/?badge=latest)
 
@@ -38,7 +37,7 @@ Full documentation is available [here](https://gulp-drupal-stack.readthedocs.io/
 
 ## Contributing
 
-Have a look at the [Contributing section](.github/CONTRIBUTING.md). If you have any question feel free to discuss about it on our [Gitter](https://gitter.im/ovh/ux).
+Have a look at the [Contributing section](.github/CONTRIBUTING.md).
 
 
 ## Credits
